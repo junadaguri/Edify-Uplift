@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edify and Uplift RegisterForm</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+        function valid(){
+            var u = document.getElementById("usname");
+            var p = document.getElementById("pas");
+            var n = document.getElementById("num");
+            if(u.value == "" || p.value == "" || n.value == "")
+            {   
+                alert("No blank values allowed");
+                return false;
+            
+            }
+            else{
+              true;
+            }
+        }
+        </script>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src=images/logo.png>
+            </div>
+    </header>
+            <ul>
+                <li class="active"><a href="homepage.html">Go back</a></li>
+           </ul>
+
+           <div class="loginpage">
+            <div class="form">
+                <form class="loginform" onsubmit="return valid()" action='homepage.html'>
+                <input id="usname" type="text" placeholder="User"/>
+                <input id="pas" type="text" placeholder="Password"/>
+                <input id="num" type="text" placeholder="Number"/>
+                <button type="submit">Create</button>
+                <p class="message">Have an account?<a href="loginform.html">Log in</a></p>
+               
+
+
+           </form>
+
+
+        </div> 
+        </div>
+           
+       
+
+    </body>
+    </html>
+
+
+
+    

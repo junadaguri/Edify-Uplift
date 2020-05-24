@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edify and Uplift LoginForm</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+    function validate(){
+        var username = document.getElementById("uname");
+        var password = document.getElementById("pass");
+        if(username.value == "" || password.value=="")
+        {   
+            alert("No blank values allowed");
+            return false;
+        
+        }
+        else{
+          true;
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src=images/logo.png>
+            </div>
+    </header>
+            <ul>
+                <li class="active"><a href="homepage.html">Go back</a></li>
+           </ul>
+        </div>
+       
+
+        <div class="loginpage">
+            <div class="form">
+           <form class="loginform" onsubmit="return validate()" action='homepage.html'>
+               <input id="uname" type="text" placeholder="username"/>
+               <input id="pass" type="text" placeholder="password"/>
+               <button type="submit">login</button>
+               <p class="message">Not Registered? <a href="registerform.html">Register</a></p>
+               
+
+
+           </form>
+
+
+        </div> 
+        </div>
+           
+       
+
+    </body>
+    </html>

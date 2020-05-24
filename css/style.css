@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+body {
+    background-image: url("../images/download.jpg");
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+   
+  }
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #9E28B8;
+    padding: 5px 20px;
+    border: 1px solid #9E28B8;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #9E28B8;
+    color: aqua;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+       
+}
+.main{
+    max-width: 1200px;
+    margin-top: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.title h1{
+    color: #9E28B8;
+    font-size: 70px;
+}
+.coursestitle{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9E28B8;
+    
+}
+.courses{
+    
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center; /*centers items on the line (the x-axis by default)*/
+        align-items: center; /*centers items on the cross-axis (y by default)*/
+        color: #9E28B8;
+      
+
+}
+.aboutustitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.aboutustitle h1{
+    color: #9E28B8;
+    font-size: 30px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn{
+    border: 1px solid #9E28B8;
+    padding: 10px 30px;
+    color: #9E28B8;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #9E28B8;
+    color: aqua;
+   
+}
+.loginpage{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: #d291bc;
+    max-width: 0 auto 100px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input{
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1;
+    background: #fec8d8;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:#bedbc8 ;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.form button:hover, .form button:active{
+  background: #fec8d8;
+
+}
+.form .message{
+    margin: 15px 0 0;
+    color: #fec8d8;
+    font-size: 12px;
+    
+}
+.form .message a{
+    color: #bedbc8;
+    text-decoration: none;
+}
+.form .registerform{
+    display: none;
+}
